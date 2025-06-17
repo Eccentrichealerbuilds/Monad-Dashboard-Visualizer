@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:4000';
+const API_BASE_URL = 'http://52.87.190.26:4000';
 
 // Fetches { tps: number }
 export const getTps = async () => {
@@ -71,7 +71,7 @@ export const getTopAddresses = async () => {
 }
 
 export const getBlockByNumber = async (number: string) => {
-  const response = await fetch(`http://localhost:4000/block-by-number/${number}`);
+  const response = await fetch(`http://52.87.190.26:4000/block-by-number/${number}`);
   if (!response.ok) {
     throw new Error('Block not found');
   }
@@ -79,7 +79,7 @@ export const getBlockByNumber = async (number: string) => {
 };
 
 export const getTransactionReceiptByHash = async (hash: string) => {
-  const response = await fetch(`http://localhost:4000/transaction-receipt/${hash}`);
+  const response = await fetch(`http://52.87.190.26:4000/transaction-receipt/${hash}`);
   if (!response.ok) {
     throw new Error('Transaction not found');
   }
