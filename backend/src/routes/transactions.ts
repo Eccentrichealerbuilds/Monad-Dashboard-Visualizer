@@ -86,7 +86,7 @@ router.get('/transactions/:hash', (req: Request, res: Response) => {
 router.get('/transaction-receipt/:hash', async (req: Request, res: Response) => {
   const txHash = req.params.hash;
   try {
-    const response = await fetch('https://monad-testnet.g.alchemy.com/v2/r9f1XOC_jAsapRTY4sUEDJmVTACM2-Zu', {
+    const response = await fetch('https://monad-testnet.g.alchemy.com/v2/api-key', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
