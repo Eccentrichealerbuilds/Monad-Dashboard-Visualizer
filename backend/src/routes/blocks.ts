@@ -105,7 +105,7 @@ router.get('/block-by-number/:number', async (req, res) => {
     ? blockNumber
     : '0x' + parseInt(blockNumber, 10).toString(16);
   try {
-    const response = await fetch('https://monad-testnet.g.alchemy.com/v2/r9f1XOC_jAsapRTY4sUEDJmVTACM2-Zu', {
+    const response = await fetch('https://monad-testnet.g.alchemy.com/v2/api-key', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
