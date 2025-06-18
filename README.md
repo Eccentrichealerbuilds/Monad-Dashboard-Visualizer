@@ -59,7 +59,8 @@ This project is a full-stack application with a separate frontend and backend.
     ```
     npm install
     ```
-3.
+
+3.```
 API_BASE_URL=http://YOUR_VPS_IP_ADDRESS:4000
     ```
 
