@@ -33,11 +33,10 @@ This project is a full-stack application with a separate frontend and backend.
 1.  **Prerequisites:** Ensure `git` and `nvm` (or a recent version of Node.js) are installed.
 2.  **Clone & Install:**
     ```bash
-    git clone <your_repo_url>
-    cd <repo_name>/dash/backend
+    git clone THIS-REPO-LINK
     npm install
     ```
-3.  **Environment:** The backend uses an environment variable for the Alchemy URL. Create a `.env` file in the `dash/backend` directory:
+3.  **Environment:** The backend uses an environment variable for the Alchemy URL. Create a `.env` file in the `THIS-REPO-NAME/backend` directory:
     ```
     ALCHEMY_URL=[https://your-alchemy-url.g.alchemy.com/v2/YOUR_API_KEY](https://your-alchemy-url.g.alchemy.com/v2/YOUR_API_KEY)
     ```
@@ -54,9 +53,9 @@ This project is a full-stack application with a separate frontend and backend.
 1.  **Connect Repo:** Import your Git repository into Vercel.
 2.  **Configure Project:**
     * **Framework Preset:** Vite
-    * **Root Directory:** `dash/frontend`
+    * **Root Directory:** `Monad-Dashboard-Visualizer/frontend`
 3.  **Environment Variables:** Add the following variable in your Vercel project settings:
-    * **Name:** `VITE_API_BASE_URL`
+    * **Name:** `API_BASE_URL`
     * **Value:** `http://YOUR_VPS_IP_ADDRESS:4000`
 4.  **Deploy:** Vercel will automatically build and deploy the frontend upon pushing to your main branch.
 
