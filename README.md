@@ -4,12 +4,10 @@ Welcome to the Monad Testnet Visual Explorer, a dynamic and feature-rich dashboa
 
 Our goal was to create a tool that is not only functional and accurate but also "left curve," offering a unique and memorable user experience.
 
-**[▶️ Live Demo Link Here]** *(Replace this with your Vercel URL after deploying)*
 
----
 
-![Dashboard Screenshot](https://i.imgur.com/your-image-url.png)
-*(Suggestion: Take a screenshot of your finished dashboard and replace the link above)*
+![Dashboard Screenshot](https://raw.githubusercontent.com/Eccentrichealerbuilds/Monad-Dashboard-Visualizer/refs/heads/Main/Screenshot_20250616-183846.jpg)
+
 
 ### ✨ Key Features
 
