@@ -48,17 +48,27 @@ This project is a full-stack application with a separate frontend and backend.
     pm2 save
     ```
 
-#### Frontend (Vercel)
+#### 🖥️ Frontend (Same Debian VPS as Backend)
 
-1.  **Connect Repo:** Import your Git repository into Vercel.
-2.  **Configure Project:**
-    * **Framework Preset:** Vite
-    * **Root Directory:** `Monad-Dashboard-Visualizer/frontend`
-3.  **Environment Variables:** Add the following variable in your Vercel project settings:
-    * **Name:** `API_BASE_URL`
-    * **Value:** `http://YOUR_VPS_IP_ADDRESS:4000`
-4.  **Deploy:** Vercel will automatically build and deploy the frontend upon pushing to your main branch.
+1. **Navigate to Frontend Directory:**
+
+    ```bash
+    cd Monad-Dashboard-Visualizer/frontend
+    ```
+2. **Install Dependencies:**
+    ```
+    npm install
+    ```
+3.
+API_BASE_URL=http://YOUR_VPS_IP_ADDRESS:4000
+    ```
+
+4. **Build the Frontend:**
+
+    ```bash
+    npm run build
+    ```
 
 ---
 
-Made with ❤️ by Eccentric Healer
+Made with ❤️ by [Eccentric Healer](https://x.com/eccentrichealer)
